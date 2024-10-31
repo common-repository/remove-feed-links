@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+#wpsos th {
+	width: 200px;
+}
+
+#wpsos .form-wrapper {
+	margin: 10px 0px;
+    background-color: #fff;
+    padding: 1px 12px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+#wpsos .form-wrapper label {
+	display: block;
+}
+
+#wpsos input[type="submit"] {
+	border: none;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+#wpsos input.submit {
+	background: #17a05e;
+}
+#wpsos input.submit:hover {
+  background: #006131;
+}
+
+#wpsos .subnote {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.wpsos-global-notification {
+    padding: 1px 10px;
+    background: #fff;
+    min-height: 30px;
+    line-height: 30px;
+}
+
+.wpsos-global-notification a {
+	color: #17a05e;
+	font-weight: bold;
+}
